@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.header-container{
+  display: flex;
+  flex-wrap: wrap;
+  height: 4rem;
+
+}
+
+.adoption-card{
+  display: flex;
+  width: 18rem;
+  height: 5rem;
+  border: 1px solid;
+  border-radius: 3px;
+}
+.card-side{
+  display: flex;
+  width: 5rem;
+  background-color: #ececec;
+  color: black;
+  /* font-size: large; */
+  font-weight: bold;
+  /* align-content: center; */
+  /* padding: 1rem; */
+  /* border: 1px solid; */
+  justify-content: center;
+  align-items: center;
+}
+
+.card-contente{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1rem;
+}
+.card-container{
+  width: 13rem;
+  margin:1.5rem;
+}
+
+.card{
+  box-shadow: 0px 0px 14px 4px rgb(0 0 0 / 10%), 0 3px 0px 0 rgb(0 0 0 / 14%);
+}
+
+.MuiCardHeader-root{
+  background: #f6f6f6 !important;
+
+}

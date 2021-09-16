@@ -14,7 +14,6 @@ import {
 
 const DashboardContainer = (props) => {
   const dispatch = useDispatch();
-  const [authors, setAuthors] = useState([]);
   const appState = useSelector((state) => state);
   let postsState = appState.posts;
   const [dashboardCards, setDashboardCards] = useState([]);
